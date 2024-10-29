@@ -1,0 +1,34 @@
+#home-container {
+ background-image: url('../../public/assets/images/home.png');
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+}
+.cardbox {
+width: 350px;
+background: #ffffffd5;
+position: fixed;
+top: 20%;
+right: 5%;
+}
+
+
+@media (max-width: 600px) {
+  .card {
+      max-width: 100vw;
+      margin: 10px 0;
+  }
+}
+
+
+
+#myBtn {
+  color: white;
+  background-color: #0b2e30;
+ 
+}
+
+#myBtn:hover {
+  background-color: rgb(219, 247, 248);
+  color: #000;
+}

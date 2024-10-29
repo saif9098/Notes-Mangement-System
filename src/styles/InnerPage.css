@@ -1,0 +1,19 @@
+#box{
+    width: auto;
+    background: rgba(247, 252, 252, 0.368);
+    box-shadow: 2px 2px rgba(94, 93, 93, 0.795);
+    
+
+}
+#descMice{
+    position: relative;
+    width: 100%;
+}
+#mice{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    color: #000;
+}
